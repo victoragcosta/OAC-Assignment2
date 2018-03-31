@@ -5,7 +5,7 @@
 O trabalho consiste de montar um emulador de MIPS em C para acesso a memória. Esse trabalho tem o objetivo de auxiliar o entendimento do acesso a memória na arquitetura MIPS.
 
 ### Participante
-Aluno | Matrícula | Username
+Aluno | Matrícula | Username Github
 ------|-----------|---------
 Victor André Gris Costa | 16/0019311 | @victoragcosta
 
@@ -398,3 +398,6 @@ O programa é compilado utilizando o g++ (gcc version 4.8.4 (Ubuntu 4.8.4-2ubunt
 
 ## IDE
 O programa foi desenvolvido no editor de texto Visual Studio Code. Esse editor de texto é praticamente uma IDE com as extensões corretas.
+
+## Github
+Este projeto se encontra no Github no perfil do aluno neste [repositório](https://github.com/victoragcosta/SimuladorMIPS.git) (https://github.com/victoragcosta/SimuladorMIPS.git)
