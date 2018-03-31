@@ -1,0 +1,5 @@
+//.gitignore
+.vscode/*
+sim_mips
+sim_mips_test
+*.o

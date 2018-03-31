@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/include",
+                "C:/Users/victo/AppData/Local/lxss/rootfs/usr/include",
+                "C:/Users/victo/AppData/Local/lxss/rootfs/usr/include/bsd"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "C:/Users/victo/AppData/Local/lxss",
+                    "C:/Users/victo/AppData/Local/lxss/usr/lib/gcc/x86_64-linux-gnu/4.8/include",
+                    "C:/Users/victo/AppData/Local/lxss/usr/local/include",
+                    "C:/Users/victo/AppData/Local/lxss/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include/x86_64-linux-gnu",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include/c++/4.8",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include/x86_64-linux-gnu/c++/4.8",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include/c++/4.8/backward",
+                    "C:/Users/victo/AppData/Local/lxss/usr/lib/gcc/x86_64-linux-gnu/4.8/include",
+                    "C:/Users/victo/AppData/Local/lxss/usr/local/include",
+                    "C:/Users/victo/AppData/Local/lxss/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include/x86_64-linux-gnu",
+                    "C:/Users/victo/AppData/Local/lxss/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 3
+}
