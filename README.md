@@ -399,5 +399,8 @@ O programa é compilado utilizando o g++ (gcc version 4.8.4 (Ubuntu 4.8.4-2ubunt
 ## IDE
 O programa foi desenvolvido no editor de texto Visual Studio Code. Esse editor de texto é praticamente uma IDE com as extensões corretas.
 
+## Uso
+Para compilar o programa vá até a pasta [src](./src/) e execute o comando make no seu linux. O binário será gerado na [raiz](./) do projeto com o nome de sim_mips_test
+
 ## Github
 Este projeto se encontra no Github no perfil do aluno neste [repositório](https://github.com/victoragcosta/SimuladorMIPS.git) (https://github.com/victoragcosta/SimuladorMIPS.git)
