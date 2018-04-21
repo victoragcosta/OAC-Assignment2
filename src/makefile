@@ -1,7 +1,7 @@
-NOME_SAIDA=../sim_mips_test
+NOME_SAIDA=../sim_mips
 
 IDIR =../include
-CC=g++
+CC=gcc
 EXT = c
 CFLAGS=-Wall -g -I $(IDIR)
 
@@ -9,10 +9,10 @@ ODIR=obj
 
 LIBS=-lm
 
-_DEPS = mips.h
+_DEPS = memory.h run.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = mips.o tests.o
+_OBJ = memory.o sim_mips.o run.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 

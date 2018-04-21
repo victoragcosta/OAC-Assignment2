@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "mips.h"
+#include "memory.h"
 
 // Memória de 16KiB ou 4Ki Words
 #define MEM_SIZE 4096

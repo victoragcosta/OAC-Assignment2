@@ -10,9 +10,7 @@
             "request": "launch",
             "preLaunchTask": "make",
             "program": "/mnt/c/Users/victo/Desktop/OAC/Trab1/sim_mips",
-            "args": [
-                "-fThreading"
-            ],
+            "args": [],
             "stopAtEntry": false,
             "cwd": "/mnt/c/Users/victo/Desktop/OAC/Trab1",
             "environment": [],

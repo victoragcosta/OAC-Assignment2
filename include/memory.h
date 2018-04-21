@@ -1,9 +1,15 @@
-#ifndef MIPS_H_
-#define MIPS_H_
+#ifndef MEMORY_H_
+#define MEMORY_H_
 #include <stdint.h>
 
+// carrega dados de arquivo binário na memória de text (0x0000 - 0x1000)
+void load_text(char *arq_name);
+
+// carrega dados de arquivo binário na memória de dados (0x2000 - 0x4000)
+void load_data(char *arq_name);
+
 // imprime o conteúdo da memória no formato hexa, palavra por palavra.
-void dump_mem(uint32_t add, uint32_t size);
+void dump_mem(int start, int end, char format);
 
 // lê um inteiro alinhado - endereços múltiplos de 4
 int32_t lw(uint32_t address, int16_t kte);
@@ -29,4 +35,4 @@ void sh(uint32_t address, int16_t kte, int16_t dado);
 // escreve um byte na memória
 void sb(uint32_t address, int16_t kte, int8_t dado);
 
-#endif /*MIPS_H_*/
+#endif /*MEMORY_H_*/
